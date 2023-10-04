@@ -5,8 +5,8 @@ export const GlobalStyle = createGlobalStyle`
 :root{
    --background: #eff7f9;
    --black:#0a0b10;
-   --purple:#803bec;
-   --pink:#e5a1f8;
+   --purple:#803b;
+   --pink:#e5a;
    --white:#fff;
    --nav:#35353f;
    --nav2:#3f3d56;

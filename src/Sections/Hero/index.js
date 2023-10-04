@@ -7,6 +7,7 @@ import purpleBlob from "../../assets/blob purple.png";
 import whiteBlob from "../../assets/blob white.png";
 import arrow from "../../assets/Arrow Right.svg";
 import Mobile from "../../assets/mobile.svg";
+import jhuliana from "../../assets/jhuliana1.svg";
 
 const move = keyframes`
 0% { transform: translateY(-5px)  }
@@ -191,20 +192,21 @@ const HeroSection = () => {
         <Lb id="leftBlock">
           <Topic>
             <Circle />
-            <span>We Build Web</span>
+            <span>JHULIANA CHAVEZ</span>
           </Topic>
-          <Title>Transforming your digital presence</Title>
+          <Title>Activista, Modelo E Influencer</Title>
           <SubText>
-            we help fast growing companies build award winning websites
+            Te presento mi portafolio de vida donde pueden apreciar mi trabajo
+            todos estos años{" "}
           </SubText>
           <CTA>
-            Get in touch &nbsp;
+            Contacto;
             <img src={arrow} alt="cta" width="100" height="100" />
           </CTA>
         </Lb>
 
         <MobileSvg
-          src={Mobile}
+          src={jhuliana}
           alt="Mobile Svg"
           srcset=""
           width="400"
